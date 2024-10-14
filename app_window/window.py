@@ -11,7 +11,6 @@ window.geometry('700x700')
 
 text_box = Text(window, font=('Arial', 15), wrap='word', height=5)
 button_send = Button(window, text='Send', command=get_text)
-label_sended = Label(canvas, text='', height=15, font=('Arial', 15))
 
 
 
